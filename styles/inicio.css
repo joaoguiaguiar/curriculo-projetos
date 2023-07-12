@@ -1,0 +1,28 @@
+
+
+.conteiner__inicio{
+display: flex;
+gap: 2rem;
+flex-direction: column;
+align-items: center;
+}
+
+
+.paragrafo__inicio{
+width: 70%;
+font-size: 25px;
+font-family: var(--font);
+}
+
+
+.titulo__inicio{
+font-size: 3rem;
+font-family: var(--font);
+color: #526D82;
+
+
+}
+
+
+
+

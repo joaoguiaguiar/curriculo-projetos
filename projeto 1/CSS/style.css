@@ -1,0 +1,45 @@
+@import url("../styles/header.css");
+@import url("../styles/banner.css");
+@import url("../styles/carrocel.css");
+@import url("../styles/cards.css");
+@import url("../styles/topicos.css");
+@import url("../styles/contatos.css");
+@import url("../styles/rotape.css");
+
+:root{
+
+    --cor-de-fundo: #EBECEE;
+    --branco: white;
+    --laranja:orange;
+    --azul:  #002F52 ;
+    --font-principal: "Poppins";
+
+}
+
+body{
+background-color: var(--cor-de-fundo);
+color: black;
+font-family: var(--font--principal);
+font-size: 1rem;
+font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

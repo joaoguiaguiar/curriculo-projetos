@@ -1,0 +1,70 @@
+.contatos{
+background-color: white;
+padding: 1rem;
+
+}
+
+.contatos__descricao{
+display: flex;
+gap: 2rem;
+flex-direction: column;
+margin: 2rem;
+}
+
+.titulo__contatos{
+    font-family: var( --font-principal);
+font-size: 18px;
+font-weight: 500;
+color: var(--azul);
+}
+
+.paragrafo__contatos{
+    font-family: var( --font-principal);
+font-size: 16px;
+font-weight: 300;
+}
+
+.contatos__pesquisa{
+padding: 1em;
+border: 1px solid black; /* solid => atributo para deixar apenas a linha em cima da barra de pesquisa     */
+border-radius: 2rem;
+width: 90%;
+
+}
+
+.contatos__pesquisa::placeholder{
+   background: url("../img/mensagem.png");
+    background-repeat: no-repeat;
+  align-items: center;
+    font-family: var( --font-principal);
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 2em;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contatos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo__contatos {
+        font-size: 24px;
+    }
+   .paragrafo__contatos{
+
+    font-size: 20px;
+   }
+
+    .contato__descrição {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contatos__pesquisa {
+        width: 30%;
+    }
+}

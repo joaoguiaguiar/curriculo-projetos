@@ -1,0 +1,30 @@
+.titulo__galeria{
+   
+    padding: 1.5rem;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+   text-align: center;
+
+
+
+}
+
+
+
+
+.swiper-slide img{
+    width: 50%;
+    }
+    
+    .botao__esquerdo, .direito {
+    
+        display: none;
+    }
+    
+    .swiper-pagination {
+        position: initial;
+        margin: .5em 0;
+    }
+    

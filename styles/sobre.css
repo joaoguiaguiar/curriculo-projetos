@@ -1,0 +1,29 @@
+
+
+#about{
+    background-color: #0F0E0E;
+    height: 100vh;
+}
+
+.titulo__sobre{
+    font-size: 2rem;
+    font-family: var(--font);
+    color: #27374D;
+
+}
+
+.conteiner__sobre{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista{
+    font-size: 25px;
+   align-items: center;
+   text-align: center;
+   font-size: 25px;
+   font-family: var(--font);
+   }
+

@@ -1,0 +1,61 @@
+.banner2{
+    background-color: var(--azul);
+    color: var(--branco);
+    padding: 2.4em 2em;
+    font-family: var( --font-principal);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.titulo__banner{
+text-align: center;
+font-weight: 400;
+margin-bottom: 1em;
+}
+
+
+
+
+
+
+.lista__topicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* usado para centralizar os links */
+    }
+    
+    .topicos__itens{
+padding: 2em 0.5em ;    
+}
+    
+    
+    .itens__link{
+    text-decoration: none;
+    font-family: var(--font-principal);
+    color: var(--branco);
+    padding: 1em ;
+    background-color: var(--laranja);
+    font-size: 14px;
+    font-weight: 400;
+    }
+    
+    @media screen and (min-width: 1024px) {
+
+
+.titulo__banner{
+font-size: 2rem;
+}
+
+
+    
+.itens__link{
+
+font-size: 24px;
+
+}
+
+
+
+    }
